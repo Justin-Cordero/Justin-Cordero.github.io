@@ -35,10 +35,6 @@ const mainFn = () => {
 
 mainFn();
 
-window.addEventListener('resize', () => {
-    window.location.reload();
-});
-
 // Small Screen Navbar Menu
 var checkbox = document.querySelector( '#myInput' );
 var icon = document.querySelector( '#menuToggle span' );
