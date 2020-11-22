@@ -8,6 +8,24 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
+    <!-- Start Mobile-Only Hamburger Menu -->
+
+    <nav role="navigation">
+        <div id="menuToggle">
+        <input type="checkbox" id="myInput"/>
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul class="mobilemenu">
+            <li><a href="#section-1" class="active">Home</a></li>
+            <li><a href="#section-2">About</a></li>
+            <li><a href="#section-3">Projects</a></li>
+            <li><a href="#section-4">Contact</a></li>
+            <li><a href="https://justincordero.medium.com/" target="_blank">Blog</a></li>
+        </ul>
+        </div>
+    </nav>
+    <!-- End Mobile-Only Hamburger Menu -->
     <div class="container">
         <!-- Section 1 -->
         <section class="section-1 center" id="section-1">
@@ -113,8 +131,8 @@
                         <h2 class="project-name">Book Stats</h2>
                         <h4 class="project-technologies">AJAX/Bootstrap</h4>
                     </div>
-                    <img src="https://github.com/Justin-Cordero/Justin-Cordero.github.io/blob/main/images/Book-Stats.png?raw=true" class="project-img">
-                    <a href="https://justin-cordero.github.io/Book_Stats/#" class="project-link" target="_blank">Go to Project</a>
+                    <img src="images/Book-Stats.png" class="project-img">
+                    <a href="https://github.com/Justin-Cordero/Justin-Cordero.github.io/blob/main/images/Book-Stats.png?raw=true" class="project-link" target="_blank">Go to Project</a>
                 </div>
                 <div class="project">
                     <div class="project-text">
@@ -158,5 +176,9 @@
     </div>
 
     <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
+        integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" 
+        crossorigin="anonymous">
+    </script>
 </body>
 </html>
