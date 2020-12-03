@@ -149,11 +149,11 @@
         <!-- Section 4 -->
         <section class="section-4" id="section-4">
             <h1 class="section-heading section-4-heading">Contact Me</h1>
-            <form class="contact-form center" action="mailto:justincordero@ymail.com" method="post" enctype="text/plain">
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <textarea placeholder="Message"></textarea>
-                <input type="submit" value="submit" class="contact-form-btn">
+            <form class="contact-form center" name="contact" action="https://formspree.io/f/mqkgdorp" method="POST">
+                <input type="text" placeholder="Name" name="name" required>
+                <input type="email" placeholder="Email" name="email" required>
+                <textarea name="message" placeholder="Message"></textarea required>
+                <input type="submit" name="submit" value="submit" class="contact-form-btn">
             </form>
         </section>
 
