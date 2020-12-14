@@ -84,6 +84,10 @@ html {
     transform: skew(-10deg);
 }
 
+.btn-container {
+
+}
+
 .section-1-btn {
     font-size: 1.7rem;
     font-weight: 700;
@@ -451,6 +455,12 @@ html {
     }
 }
 
+@media(max-width: 875px) {
+    .section-1-heading {
+        font-size: 5rem;
+    }
+}
+
 @media(max-width: 800px) {
     .section-1-heading {
         font-size: 4rem;
@@ -462,6 +472,12 @@ html {
 
     .progress-bar {
         width: 50rem;
+    }
+}
+
+@media(max-width: 632px) {
+    .section-1-heading {
+        font-size: 3.5rem;
     }
 }
 
@@ -511,6 +527,10 @@ html {
 @media(max-width: 555px) {
     .section-heading {
         text-align: center;
+    }
+
+    .section-1-heading {
+        font-size: 2.7rem;
     }
 }
 
@@ -585,7 +605,7 @@ html {
       {
         opacity: 1;
         transform: rotate(45deg) translate(-2px, -1px);
-        background: #13aff0;
+        background: #000;
       }
       
       #menuToggle input:checked ~ span:nth-last-child(3)
@@ -667,6 +687,11 @@ html {
 @media(max-width: 375px) {
     .section-heading {
         text-align: center;
+    }
+
+    .section-1-heading {
+        text-align: center;
+        font-size: 2.2rem;
     }
 
     .about-me {
