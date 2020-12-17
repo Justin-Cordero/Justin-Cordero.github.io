@@ -697,4 +697,23 @@ html {
     .about-me {
         max-width: 95%;
     }
+
+    .progress-bar {
+        width: 35rem;
+        height: 2.8rem;
+    }
+    
+    .progress-text {
+        font-size: 1.5rem;
+    }
+
+    .projects-wrapper {
+        width: 90%;
+    }
+}
+
+@media(max-width: 320px) {
+    .projects-wrapper {
+        width: 120%;
+    }
 }
