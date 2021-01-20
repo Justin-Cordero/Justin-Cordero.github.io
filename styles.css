@@ -474,10 +474,6 @@ html {
     .about-me {
         max-width: 50%;
     }
-
-    .progress-bar {
-        width: 50rem;
-    }
 }
 
 @media(max-width: 632px) {
@@ -506,10 +502,6 @@ html {
 
     .about-me {
         max-width: 85%;
-    }
-
-    .progress-bar {
-        width: 45rem;
     }
 
     .project-img {
@@ -703,13 +695,8 @@ html {
         max-width: 95%;
     }
 
-    .progress-bar {
-        width: 35rem;
-        height: 2.8rem;
-    }
-    
-    .progress-text {
-        font-size: 1.5rem;
+    .card {
+        height: 19vh;
     }
 
     .projects-wrapper {
@@ -718,6 +705,10 @@ html {
 }
 
 @media(max-width: 320px) {
+    .card {
+        height: 22vh;
+    }
+
     .projects-wrapper {
         width: 120%;
     }
