@@ -9,14 +9,7 @@
 
 - 📄 Check out my resume: [https://justincordero.tech/Justin_Cordero_Resume.pdf](https://justincordero.tech/Justin_Cordero_Resume.pdf)
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/justin-cordero-tech" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/neutral-icons/src/images/icons/Social/linked-in-alt.svg" alt="justin-cordero-tech" height="30" width="40" /></a>
-<a href="https://medium.com/@justincordero" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/neutral-icons/src/images/icons/Social/medium.svg" alt="@justincordero" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/justin-cordero" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/neutral-icons/src/images/icons/Social/leet-code.svg" alt="justin-cordero" height="30" width="40" /></a>
-</p>
-
-## Technologies
+## Technologies used
 
 This portfolio was built as a simple static website using HTML, CSS, and vanilla JavaScript. A heavy emphasis was put on utilizing modern CSS practices such as transitions, animations, grid, flexbox and pseudo-classes. Also, media queries were used to ensure responsiveness on smaller devices.  
 
